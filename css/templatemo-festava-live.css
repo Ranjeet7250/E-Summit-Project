@@ -1,6 +1,5 @@
 *{
-  ding: 0;
-  margin: 0;
+  font-family: 'plain';
 }
 /*
 
@@ -314,7 +313,7 @@ strong {
 }
 @media (max-width:600px){
   #section_1{
-    height: vh;
+    height: 85vh;
   }
 }
 
@@ -584,6 +583,10 @@ section .text-white{
   section .text-white{
     color: white;
   }
+
+  .page1{
+    margin-top:10px;
+  }
   .hero-section {
     position: relative;
     overflow: hidden;
@@ -850,6 +853,10 @@ section .text-white{
   line-height: 40px;
   font-size: 8vh;
 }
+.about-box h1 span{
+  color: #007bff;
+}
+
 .about-box{
   padding-top: 80px;
 }
@@ -863,6 +870,7 @@ section .text-white{
   line-height: 33px;
   font-size: 3.5vh;
   font-weight: 500;
+  font-family: 'plain';
 }
 .about-center2{
   padding: 25px;
